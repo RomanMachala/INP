@@ -1,13 +1,13 @@
-; Autor reseni: Roman Machala xmacha86
+; Autor reseni: Jmeno Prijmeni login
 ; Pocet cyklu k serazeni puvodniho retezce:
 ; Pocet cyklu razeni sestupne serazeneho retezce:
 ; Pocet cyklu razeni vzestupne serazeneho retezce:
 ; Pocet cyklu razeni retezce s vasim loginem:
-; Implementovany radici algoritmus: Bubble sort algorithm
+; Implementovany radici algoritmus:
 ; ------------------------------------------------
 
 ; DATA SEGMENT
-                .data                    
+                .data
 login:          .asciiz "vitejte-v-inp-2023"    ; puvodni uvitaci retezec
 ; login:          .asciiz "vvttpnjiiee3220---"  ; sestupne serazeny retezec
 ; login:          .asciiz "---0223eeiijnpttvv"  ; vzestupne serazeny retezec
@@ -20,22 +20,15 @@ params_sys5:    .space  8   ; misto pro ulozeni adresy pocatku
 
 ; CODE SEGMENT
                 .text
-        daddi r3, r0, login
-        lb r7, 0(r3)
-        sb r7, 1(r3)
-        daddi r3, r3, 2
-
-        lb r7, 0(r3)
-        sb r7, 1(r3)
-        dadd r4, r0, r3
-        jal print_string
-
-        daddi r3, r3, -2
-        dadd r4, r0, r3
-        jal print_string
+main:
+        ; SEM DOPLNTE VASE RESENI
 
 
-        syscall 0               ;halt
+        daddi   r4, r0, login   ; vozrovy vypis: adresa login: do r4
+        jal     print_string    ; vypis pomoci print_string - viz nize
+
+        syscall 0   ; halt
+
 
 print_string:   ; adresa retezce se ocekava v r4
                 sw      r4, params_sys5(r0)
