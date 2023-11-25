@@ -1,5 +1,5 @@
 # INP
-Přidáno řešení porjektu 1 a 2
+Přidáno řešení projektu 1 a 2
 
 # Projekt 1
     -implementace procesoru simulující chod programu BrainFuck
