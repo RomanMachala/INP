@@ -278,12 +278,13 @@ begin
 				elsif (OUT_BUSY = '0') then
 					next_state <= state_print_act_2;
 					sel1 <= '1'; --PTR
+					sel2 <= "11"; --DATA_RDATA
 				end if;
 			when state_print_act_2 =>
 				pc_inc <= '1'; --PC++
 				OUT_WE <= '1'; --povoleni cinnosti tiksu znaku
 				DATA_EN <= '1'; --povoleni cinnsoti
-				--OUT_DATA <= DATA_RDATA;
+				OUT_DATA <= DATA_RDATA;
 				sel2 <= "11"; --DATA_RDATA
 				next_state <= state_fetch;
 			when state_load_act =>

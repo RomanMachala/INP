@@ -5,7 +5,7 @@
      -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
      0.00ns INFO     cocotb                             Running on GHDL version 2.0.0 (tarball) [Dunoon edition]
      0.00ns INFO     cocotb                             Running tests with cocotb v1.7.1 from /homes/eva/xm/xmacha86/INP/env/lib/python3.8/site-packages/cocotb
-     0.00ns INFO     cocotb                             Seeding Python random module with 1700317934
+     0.00ns INFO     cocotb                             Seeding Python random module with 1700934237
      0.00ns INFO     cocotb.hexdigest                   lib: db913e6f9a8b6fd10e0c8ec59ef3e5fa
      0.00ns INFO     cocotb.regression                  Found test cpu.test_reset
      0.00ns INFO     cocotb.regression                  Found test cpu.test_init
@@ -79,17 +79,17 @@
 142351.00ns INFO     cocotb.regression                  ****************************************************************************************
                                                         ** TEST                            STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
                                                         ****************************************************************************************
-                                                        ** cpu.test_reset                   PASS          51.00           0.00      16473.59  **
-                                                        ** cpu.test_init                    PASS         110.00           0.01      13862.55  **
-                                                        ** cpu.test_increment               PASS         320.00           0.02      19944.38  **
-                                                        ** cpu.test_decrement               PASS         320.00           0.02      19910.06  **
-                                                        ** cpu.test_move                    PASS         240.00           0.01      18870.59  **
-                                                        ** cpu.test_print                   PASS        1280.00           0.05      26986.71  **
-                                                        ** cpu.test_input                   PASS        2580.00           0.11      23149.75  **
-                                                        ** cpu.test_while_loop              PASS        1430.00           0.06      25163.43  **
-                                                        ** cpu.test_break                   PASS         410.00           0.02      20753.36  **
-                                                        ** cpu.test_login_xmacha86          PASS      135610.00           5.55      24429.98  **
+                                                        ** cpu.test_reset                   PASS          51.00           0.00      14542.76  **
+                                                        ** cpu.test_init                    PASS         110.00           0.01      12754.99  **
+                                                        ** cpu.test_increment               PASS         320.00           0.02      18537.85  **
+                                                        ** cpu.test_decrement               PASS         320.00           0.02      18855.84  **
+                                                        ** cpu.test_move                    PASS         240.00           0.01      17644.13  **
+                                                        ** cpu.test_print                   PASS        1280.00           0.05      24535.04  **
+                                                        ** cpu.test_input                   PASS        2580.00           0.12      20863.52  **
+                                                        ** cpu.test_while_loop              PASS        1430.00           0.06      23102.17  **
+                                                        ** cpu.test_break                   PASS         410.00           0.02      19651.51  **
+                                                        ** cpu.test_login_xmacha86          PASS      135610.00           6.19      21903.34  **
                                                         ****************************************************************************************
-                                                        ** TESTS=10 PASS=10 FAIL=0 SKIP=0             142351.00           6.19      22997.14  **
+                                                        ** TESTS=10 PASS=10 FAIL=0 SKIP=0             142351.00           6.82      20860.52  **
                                                         ****************************************************************************************
                                                         
