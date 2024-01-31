@@ -5,8 +5,8 @@
     -implementace procesoru simulující chod programu BrainFuck
 
 # Projekt 2
-    -implementován řadící algoritmus Bubble sort
-    ## Hodnocení projektu 2: ***10/10***
+-implementován řadící algoritmus Bubble sort
+## Hodnocení projektu 2: ***10/10***
     -zprava přiložená k hodnocení projektu
     login.b: 3b
     počet instrukcí: 99, tj. o 82 více než nejkompaktnější odevzdané řešení
