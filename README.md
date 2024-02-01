@@ -1,6 +1,10 @@
 # INP
 Řešení projektu 1 a 2 do předmětu Návrh počítačových systémů
 
+## Osobní hodnocení předmětu
+Předmět jako takový je poměrně zajímavý. Projekty jsou poměrně jednoduché a je za ně dostatek bodů. Democvika jsou worth a prakticky všechno co se na nich dělá se následně může vyskytnout u půlsemestrálky nebo u zkoušky.
+Důležité je nepodcenit projekty, protože jsou to free body. Zkouška je potom lehká.
+
 # Projekt 1
 - Implementace procesoru simulující chod programu BrainFuck
 ## Hodnocení projektu 1: ***18/23***
