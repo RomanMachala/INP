@@ -6,8 +6,8 @@ Předmět jako takový je poměrně zajímavý. Projekty jsou poměrně jednoduc
 Důležité je nepodcenit projekty, protože jsou to free body. Zkouška je potom lehká.
 
 # Projekt 1
-- Implementace procesoru simulující chod programu BrainFuck
-## Hodnocení projektu 1: ***18/23***
+- Implementace procesoru simulující chod programu BrainFuck ve VHDL
+## Hodnocení projektu 1: ***18b/23b***
 Zpráva přiložená k hodnocení projektu:
 - ***login.b:*** 3b
 - ***počet instrukcí:*** 99, tj. o 82 více než nejkompaktnější odevzdané řešení
@@ -18,8 +18,8 @@ Zpráva přiložená k hodnocení projektu:
 - ***nefunkční kód:*** +++++[>++[>+.<-]<-]@
 
 # Projekt 2
-- Implementován řadící algoritmus Bubble sort
-## Hodnocení projektu 2: ***10/10***
+- Implementován řadící algoritmus Bubble sort v instrukční sadě MIPS
+## Hodnocení projektu 2: ***10b/10b***
 Zpráva přiložená k hodnocení projektu:
 - ***OK. Poradi dle efektivity razeni: 54/516***
 
